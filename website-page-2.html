@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Commission Request form</title>
+    <link rel="stylesheet" href="websitelayout.css">
+</head>
+
+<body>
+    <!--
+    Navigation bar linking all 4 pages
+    HTML Form with a minimum of:
+    1 fieldset
+    3 inputs - 2 text, 1 checkbox
+    1 textarea
+    Appropriate (associated) labels for the above elements
+    1 button
+    remaining: figure out form submission details
+
+-->
+    <nav class="navbar-main">
+        <ul class="navlist">
+            <li class="navbar-main-item"><a href="website-page-1.html">Home</a></li>
+            <li class="navbar-main-item"><a href="website-page-2.html">Submission Form</a></li>
+            <li class="navbar-main-item"><a href="website-page-3.html">My Influences</a></li>
+            <li class="navbar-main-item"><a href="website-page-4.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <form class="erm" action="" method="get">
+        <fieldset class="crfield">
+            <legend>Commission Request</legend>
+            <div>
+                <label for="cr_name">Name (as you would like it publicly displayed)</label>
+                <input type="text" id="cr_name" name="name">
+            </div>
+            <div>
+                <label for="cr_email">Email Address (never publicly displayed)</label>
+                <input type="email" id="cr_name" name="email">
+            </div>
+            <div>
+                <label for="crequest">Commission Request (your idea here!)</label>
+                <textarea id="crequest" class="request-field"></textarea>
+            </div>
+            <div class="consent">
+                <input type="checkbox" id="cons-box" class="chex" value="cons-check" aria-required="true">
+                <label for="cons-box">I consent to my commission idea being displayed on this website and I make no
+                    claims
+                    to any rights over the completed commission.</label>
+            </div>
+            <button class="crsubbutt" type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+
+/* color palette F7F4F3 (White Smoke) 564D4A (walnut brown)
+ F24333 (vermillion) BA1B1D (cornelli red) */
+
+.body {
+    background-color: #F7F4F3;
+}
+.navbar-main {
+    display:inline-block;
+    position:fixed;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:15%;
+    overflow:auto;
+}
+/*links in navbar*/
+.navbar-main-item {
+    display:block;
+    writing-mode:vertical-rl;
+    text-orientation:upright;
+    padding:20px;
+    border:1px solid #F24333;
+    background-color:#BA1B1D;
+}
+/*the ul*/
+.navlist {
+    list-style-type:none;
+}
+.gallery-main-div {
+display:grid;
+justify-content:center;
+grid-template-rows: 300px 300px;
+grid-template-columns: 200px 200px 200px;
+gap:10%;
+
+}
+.gal_main_img {
+    width:100%;
+    height:auto;
+ }
+.h1 {
+    display:inline-block;
+}
+
+a:link {
+    color:#564D4A;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a:visited {
+    color:#5B2333;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.erm {
+    margin-left:16%;
+    padding: 1px;
+}
+.crfield {
+    display:grid;
+    width:50%;
+    text-align:center;
+    margin-top:10%;
+}
+.reflist-ul {
+    list-style-type:none;
+}
